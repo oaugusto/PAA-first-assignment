@@ -2,7 +2,7 @@
 // Created by WorkSpace on 4/14/2018.
 //
 
-#ifndef PAA_FIRST_ASSIGNMENT_HEAP_H
-#define PAA_FIRST_ASSIGNMENT_HEAP_H
+#ifndef HEAP_H
+#define HEAP_H
 
-#endif //PAA_FIRST_ASSIGNMENT_HEAP_H
+#endif //HEAP_H

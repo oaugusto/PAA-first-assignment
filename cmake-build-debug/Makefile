@@ -150,6 +150,114 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/PAA_first_assignment.dir/build.make CMakeFiles/PAA_first_assignment.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/adjacencylist.o: src/adjacencylist.cpp.o
+
+.PHONY : src/adjacencylist.o
+
+# target to build an object file
+src/adjacencylist.cpp.o:
+	$(MAKE) -f CMakeFiles/PAA_first_assignment.dir/build.make CMakeFiles/PAA_first_assignment.dir/src/adjacencylist.cpp.o
+.PHONY : src/adjacencylist.cpp.o
+
+src/adjacencylist.i: src/adjacencylist.cpp.i
+
+.PHONY : src/adjacencylist.i
+
+# target to preprocess a source file
+src/adjacencylist.cpp.i:
+	$(MAKE) -f CMakeFiles/PAA_first_assignment.dir/build.make CMakeFiles/PAA_first_assignment.dir/src/adjacencylist.cpp.i
+.PHONY : src/adjacencylist.cpp.i
+
+src/adjacencylist.s: src/adjacencylist.cpp.s
+
+.PHONY : src/adjacencylist.s
+
+# target to generate assembly for a file
+src/adjacencylist.cpp.s:
+	$(MAKE) -f CMakeFiles/PAA_first_assignment.dir/build.make CMakeFiles/PAA_first_assignment.dir/src/adjacencylist.cpp.s
+.PHONY : src/adjacencylist.cpp.s
+
+src/adjacencymatrix.o: src/adjacencymatrix.cpp.o
+
+.PHONY : src/adjacencymatrix.o
+
+# target to build an object file
+src/adjacencymatrix.cpp.o:
+	$(MAKE) -f CMakeFiles/PAA_first_assignment.dir/build.make CMakeFiles/PAA_first_assignment.dir/src/adjacencymatrix.cpp.o
+.PHONY : src/adjacencymatrix.cpp.o
+
+src/adjacencymatrix.i: src/adjacencymatrix.cpp.i
+
+.PHONY : src/adjacencymatrix.i
+
+# target to preprocess a source file
+src/adjacencymatrix.cpp.i:
+	$(MAKE) -f CMakeFiles/PAA_first_assignment.dir/build.make CMakeFiles/PAA_first_assignment.dir/src/adjacencymatrix.cpp.i
+.PHONY : src/adjacencymatrix.cpp.i
+
+src/adjacencymatrix.s: src/adjacencymatrix.cpp.s
+
+.PHONY : src/adjacencymatrix.s
+
+# target to generate assembly for a file
+src/adjacencymatrix.cpp.s:
+	$(MAKE) -f CMakeFiles/PAA_first_assignment.dir/build.make CMakeFiles/PAA_first_assignment.dir/src/adjacencymatrix.cpp.s
+.PHONY : src/adjacencymatrix.cpp.s
+
+src/graph.o: src/graph.cpp.o
+
+.PHONY : src/graph.o
+
+# target to build an object file
+src/graph.cpp.o:
+	$(MAKE) -f CMakeFiles/PAA_first_assignment.dir/build.make CMakeFiles/PAA_first_assignment.dir/src/graph.cpp.o
+.PHONY : src/graph.cpp.o
+
+src/graph.i: src/graph.cpp.i
+
+.PHONY : src/graph.i
+
+# target to preprocess a source file
+src/graph.cpp.i:
+	$(MAKE) -f CMakeFiles/PAA_first_assignment.dir/build.make CMakeFiles/PAA_first_assignment.dir/src/graph.cpp.i
+.PHONY : src/graph.cpp.i
+
+src/graph.s: src/graph.cpp.s
+
+.PHONY : src/graph.s
+
+# target to generate assembly for a file
+src/graph.cpp.s:
+	$(MAKE) -f CMakeFiles/PAA_first_assignment.dir/build.make CMakeFiles/PAA_first_assignment.dir/src/graph.cpp.s
+.PHONY : src/graph.cpp.s
+
+src/heap.o: src/heap.cpp.o
+
+.PHONY : src/heap.o
+
+# target to build an object file
+src/heap.cpp.o:
+	$(MAKE) -f CMakeFiles/PAA_first_assignment.dir/build.make CMakeFiles/PAA_first_assignment.dir/src/heap.cpp.o
+.PHONY : src/heap.cpp.o
+
+src/heap.i: src/heap.cpp.i
+
+.PHONY : src/heap.i
+
+# target to preprocess a source file
+src/heap.cpp.i:
+	$(MAKE) -f CMakeFiles/PAA_first_assignment.dir/build.make CMakeFiles/PAA_first_assignment.dir/src/heap.cpp.i
+.PHONY : src/heap.cpp.i
+
+src/heap.s: src/heap.cpp.s
+
+.PHONY : src/heap.s
+
+# target to generate assembly for a file
+src/heap.cpp.s:
+	$(MAKE) -f CMakeFiles/PAA_first_assignment.dir/build.make CMakeFiles/PAA_first_assignment.dir/src/heap.cpp.s
+.PHONY : src/heap.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +270,18 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/adjacencylist.o"
+	@echo "... src/adjacencylist.i"
+	@echo "... src/adjacencylist.s"
+	@echo "... src/adjacencymatrix.o"
+	@echo "... src/adjacencymatrix.i"
+	@echo "... src/adjacencymatrix.s"
+	@echo "... src/graph.o"
+	@echo "... src/graph.i"
+	@echo "... src/graph.s"
+	@echo "... src/heap.o"
+	@echo "... src/heap.i"
+	@echo "... src/heap.s"
 .PHONY : help
 
 

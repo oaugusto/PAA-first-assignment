@@ -2,7 +2,13 @@
 // Created by WorkSpace on 4/14/2018.
 //
 
-#ifndef PAA_FIRST_ASSIGNMENT_GRAPH_H
-#define PAA_FIRST_ASSIGNMENT_GRAPH_H
+#ifndef GRAPH_H
+#define GRAPH_H
 
-#endif //PAA_FIRST_ASSIGNMENT_GRAPH_H
+
+class graph {
+
+};
+
+
+#endif //GRAPH_H
