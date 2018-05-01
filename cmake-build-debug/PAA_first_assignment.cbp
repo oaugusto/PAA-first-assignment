@@ -80,16 +80,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/cygdrive/c/Users/WorkSpace/CLionProjects/PAA-first-assignment/include/adjacencylist.h">
+		<Unit filename="/cygdrive/c/Users/WorkSpace/CLionProjects/PAA-first-assignment/include/Edge.h">
 			<Option target="PAA_first_assignment"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/WorkSpace/CLionProjects/PAA-first-assignment/include/adjacencymatrix.h">
+		<Unit filename="/cygdrive/c/Users/WorkSpace/CLionProjects/PAA-first-assignment/include/Graph.h">
 			<Option target="PAA_first_assignment"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/WorkSpace/CLionProjects/PAA-first-assignment/include/graph.h">
+		<Unit filename="/cygdrive/c/Users/WorkSpace/CLionProjects/PAA-first-assignment/include/ListGraph.h">
 			<Option target="PAA_first_assignment"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/WorkSpace/CLionProjects/PAA-first-assignment/include/heap.h">
+		<Unit filename="/cygdrive/c/Users/WorkSpace/CLionProjects/PAA-first-assignment/include/MatrixGraph.h">
+			<Option target="PAA_first_assignment"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/WorkSpace/CLionProjects/PAA-first-assignment/include/Types.h">
 			<Option target="PAA_first_assignment"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/WorkSpace/CLionProjects/PAA-first-assignment/include/timer.h">
@@ -98,16 +101,13 @@
 		<Unit filename="/cygdrive/c/Users/WorkSpace/CLionProjects/PAA-first-assignment/main.cpp">
 			<Option target="PAA_first_assignment"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/WorkSpace/CLionProjects/PAA-first-assignment/src/adjacencylist.cpp">
+		<Unit filename="/cygdrive/c/Users/WorkSpace/CLionProjects/PAA-first-assignment/src/Graph.cpp">
 			<Option target="PAA_first_assignment"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/WorkSpace/CLionProjects/PAA-first-assignment/src/adjacencymatrix.cpp">
+		<Unit filename="/cygdrive/c/Users/WorkSpace/CLionProjects/PAA-first-assignment/src/ListGraph.cpp">
 			<Option target="PAA_first_assignment"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/WorkSpace/CLionProjects/PAA-first-assignment/src/graph.cpp">
-			<Option target="PAA_first_assignment"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/WorkSpace/CLionProjects/PAA-first-assignment/src/heap.cpp">
+		<Unit filename="/cygdrive/c/Users/WorkSpace/CLionProjects/PAA-first-assignment/src/MatrixGraph.cpp">
 			<Option target="PAA_first_assignment"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/WorkSpace/CLionProjects/PAA-first-assignment/CMakeLists.txt">

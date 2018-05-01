@@ -1,9 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/PAA_first_assignment.dir/main.cpp.o"
-  "CMakeFiles/PAA_first_assignment.dir/src/graph.cpp.o"
-  "CMakeFiles/PAA_first_assignment.dir/src/adjacencylist.cpp.o"
-  "CMakeFiles/PAA_first_assignment.dir/src/adjacencymatrix.cpp.o"
-  "CMakeFiles/PAA_first_assignment.dir/src/heap.cpp.o"
+  "CMakeFiles/PAA_first_assignment.dir/src/Graph.cpp.o"
+  "CMakeFiles/PAA_first_assignment.dir/src/ListGraph.cpp.o"
+  "CMakeFiles/PAA_first_assignment.dir/src/MatrixGraph.cpp.o"
   "PAA_first_assignment.pdb"
   "PAA_first_assignment.exe"
   "libPAA_first_assignment.dll.a"

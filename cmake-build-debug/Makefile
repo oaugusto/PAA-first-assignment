@@ -150,113 +150,86 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/PAA_first_assignment.dir/build.make CMakeFiles/PAA_first_assignment.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-src/adjacencylist.o: src/adjacencylist.cpp.o
+src/Graph.o: src/Graph.cpp.o
 
-.PHONY : src/adjacencylist.o
-
-# target to build an object file
-src/adjacencylist.cpp.o:
-	$(MAKE) -f CMakeFiles/PAA_first_assignment.dir/build.make CMakeFiles/PAA_first_assignment.dir/src/adjacencylist.cpp.o
-.PHONY : src/adjacencylist.cpp.o
-
-src/adjacencylist.i: src/adjacencylist.cpp.i
-
-.PHONY : src/adjacencylist.i
-
-# target to preprocess a source file
-src/adjacencylist.cpp.i:
-	$(MAKE) -f CMakeFiles/PAA_first_assignment.dir/build.make CMakeFiles/PAA_first_assignment.dir/src/adjacencylist.cpp.i
-.PHONY : src/adjacencylist.cpp.i
-
-src/adjacencylist.s: src/adjacencylist.cpp.s
-
-.PHONY : src/adjacencylist.s
-
-# target to generate assembly for a file
-src/adjacencylist.cpp.s:
-	$(MAKE) -f CMakeFiles/PAA_first_assignment.dir/build.make CMakeFiles/PAA_first_assignment.dir/src/adjacencylist.cpp.s
-.PHONY : src/adjacencylist.cpp.s
-
-src/adjacencymatrix.o: src/adjacencymatrix.cpp.o
-
-.PHONY : src/adjacencymatrix.o
+.PHONY : src/Graph.o
 
 # target to build an object file
-src/adjacencymatrix.cpp.o:
-	$(MAKE) -f CMakeFiles/PAA_first_assignment.dir/build.make CMakeFiles/PAA_first_assignment.dir/src/adjacencymatrix.cpp.o
-.PHONY : src/adjacencymatrix.cpp.o
+src/Graph.cpp.o:
+	$(MAKE) -f CMakeFiles/PAA_first_assignment.dir/build.make CMakeFiles/PAA_first_assignment.dir/src/Graph.cpp.o
+.PHONY : src/Graph.cpp.o
 
-src/adjacencymatrix.i: src/adjacencymatrix.cpp.i
+src/Graph.i: src/Graph.cpp.i
 
-.PHONY : src/adjacencymatrix.i
+.PHONY : src/Graph.i
 
 # target to preprocess a source file
-src/adjacencymatrix.cpp.i:
-	$(MAKE) -f CMakeFiles/PAA_first_assignment.dir/build.make CMakeFiles/PAA_first_assignment.dir/src/adjacencymatrix.cpp.i
-.PHONY : src/adjacencymatrix.cpp.i
+src/Graph.cpp.i:
+	$(MAKE) -f CMakeFiles/PAA_first_assignment.dir/build.make CMakeFiles/PAA_first_assignment.dir/src/Graph.cpp.i
+.PHONY : src/Graph.cpp.i
 
-src/adjacencymatrix.s: src/adjacencymatrix.cpp.s
+src/Graph.s: src/Graph.cpp.s
 
-.PHONY : src/adjacencymatrix.s
+.PHONY : src/Graph.s
 
 # target to generate assembly for a file
-src/adjacencymatrix.cpp.s:
-	$(MAKE) -f CMakeFiles/PAA_first_assignment.dir/build.make CMakeFiles/PAA_first_assignment.dir/src/adjacencymatrix.cpp.s
-.PHONY : src/adjacencymatrix.cpp.s
+src/Graph.cpp.s:
+	$(MAKE) -f CMakeFiles/PAA_first_assignment.dir/build.make CMakeFiles/PAA_first_assignment.dir/src/Graph.cpp.s
+.PHONY : src/Graph.cpp.s
 
-src/graph.o: src/graph.cpp.o
+src/ListGraph.o: src/ListGraph.cpp.o
 
-.PHONY : src/graph.o
+.PHONY : src/ListGraph.o
 
 # target to build an object file
-src/graph.cpp.o:
-	$(MAKE) -f CMakeFiles/PAA_first_assignment.dir/build.make CMakeFiles/PAA_first_assignment.dir/src/graph.cpp.o
-.PHONY : src/graph.cpp.o
+src/ListGraph.cpp.o:
+	$(MAKE) -f CMakeFiles/PAA_first_assignment.dir/build.make CMakeFiles/PAA_first_assignment.dir/src/ListGraph.cpp.o
+.PHONY : src/ListGraph.cpp.o
 
-src/graph.i: src/graph.cpp.i
+src/ListGraph.i: src/ListGraph.cpp.i
 
-.PHONY : src/graph.i
+.PHONY : src/ListGraph.i
 
 # target to preprocess a source file
-src/graph.cpp.i:
-	$(MAKE) -f CMakeFiles/PAA_first_assignment.dir/build.make CMakeFiles/PAA_first_assignment.dir/src/graph.cpp.i
-.PHONY : src/graph.cpp.i
+src/ListGraph.cpp.i:
+	$(MAKE) -f CMakeFiles/PAA_first_assignment.dir/build.make CMakeFiles/PAA_first_assignment.dir/src/ListGraph.cpp.i
+.PHONY : src/ListGraph.cpp.i
 
-src/graph.s: src/graph.cpp.s
+src/ListGraph.s: src/ListGraph.cpp.s
 
-.PHONY : src/graph.s
+.PHONY : src/ListGraph.s
 
 # target to generate assembly for a file
-src/graph.cpp.s:
-	$(MAKE) -f CMakeFiles/PAA_first_assignment.dir/build.make CMakeFiles/PAA_first_assignment.dir/src/graph.cpp.s
-.PHONY : src/graph.cpp.s
+src/ListGraph.cpp.s:
+	$(MAKE) -f CMakeFiles/PAA_first_assignment.dir/build.make CMakeFiles/PAA_first_assignment.dir/src/ListGraph.cpp.s
+.PHONY : src/ListGraph.cpp.s
 
-src/heap.o: src/heap.cpp.o
+src/MatrixGraph.o: src/MatrixGraph.cpp.o
 
-.PHONY : src/heap.o
+.PHONY : src/MatrixGraph.o
 
 # target to build an object file
-src/heap.cpp.o:
-	$(MAKE) -f CMakeFiles/PAA_first_assignment.dir/build.make CMakeFiles/PAA_first_assignment.dir/src/heap.cpp.o
-.PHONY : src/heap.cpp.o
+src/MatrixGraph.cpp.o:
+	$(MAKE) -f CMakeFiles/PAA_first_assignment.dir/build.make CMakeFiles/PAA_first_assignment.dir/src/MatrixGraph.cpp.o
+.PHONY : src/MatrixGraph.cpp.o
 
-src/heap.i: src/heap.cpp.i
+src/MatrixGraph.i: src/MatrixGraph.cpp.i
 
-.PHONY : src/heap.i
+.PHONY : src/MatrixGraph.i
 
 # target to preprocess a source file
-src/heap.cpp.i:
-	$(MAKE) -f CMakeFiles/PAA_first_assignment.dir/build.make CMakeFiles/PAA_first_assignment.dir/src/heap.cpp.i
-.PHONY : src/heap.cpp.i
+src/MatrixGraph.cpp.i:
+	$(MAKE) -f CMakeFiles/PAA_first_assignment.dir/build.make CMakeFiles/PAA_first_assignment.dir/src/MatrixGraph.cpp.i
+.PHONY : src/MatrixGraph.cpp.i
 
-src/heap.s: src/heap.cpp.s
+src/MatrixGraph.s: src/MatrixGraph.cpp.s
 
-.PHONY : src/heap.s
+.PHONY : src/MatrixGraph.s
 
 # target to generate assembly for a file
-src/heap.cpp.s:
-	$(MAKE) -f CMakeFiles/PAA_first_assignment.dir/build.make CMakeFiles/PAA_first_assignment.dir/src/heap.cpp.s
-.PHONY : src/heap.cpp.s
+src/MatrixGraph.cpp.s:
+	$(MAKE) -f CMakeFiles/PAA_first_assignment.dir/build.make CMakeFiles/PAA_first_assignment.dir/src/MatrixGraph.cpp.s
+.PHONY : src/MatrixGraph.cpp.s
 
 # Help Target
 help:
@@ -270,18 +243,15 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... src/adjacencylist.o"
-	@echo "... src/adjacencylist.i"
-	@echo "... src/adjacencylist.s"
-	@echo "... src/adjacencymatrix.o"
-	@echo "... src/adjacencymatrix.i"
-	@echo "... src/adjacencymatrix.s"
-	@echo "... src/graph.o"
-	@echo "... src/graph.i"
-	@echo "... src/graph.s"
-	@echo "... src/heap.o"
-	@echo "... src/heap.i"
-	@echo "... src/heap.s"
+	@echo "... src/Graph.o"
+	@echo "... src/Graph.i"
+	@echo "... src/Graph.s"
+	@echo "... src/ListGraph.o"
+	@echo "... src/ListGraph.i"
+	@echo "... src/ListGraph.s"
+	@echo "... src/MatrixGraph.o"
+	@echo "... src/MatrixGraph.i"
+	@echo "... src/MatrixGraph.s"
 .PHONY : help
 
 
