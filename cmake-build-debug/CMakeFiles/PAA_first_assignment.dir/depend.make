@@ -4,6 +4,7 @@
 CMakeFiles/PAA_first_assignment.dir/main.cpp.o: ../include/Edge.h
 CMakeFiles/PAA_first_assignment.dir/main.cpp.o: ../include/Graph.h
 CMakeFiles/PAA_first_assignment.dir/main.cpp.o: ../include/Types.h
+CMakeFiles/PAA_first_assignment.dir/main.cpp.o: ../include/solution.h
 CMakeFiles/PAA_first_assignment.dir/main.cpp.o: ../main.cpp
 
 CMakeFiles/PAA_first_assignment.dir/src/Graph.cpp.o: ../include/Edge.h

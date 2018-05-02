@@ -49,12 +49,8 @@ iostream
 -
 include/Graph.h
 /cygdrive/c/Users/WorkSpace/CLionProjects/PAA-first-assignment/include/Graph.h
-vector
--
-list
--
-algorithm
--
+include/solution.h
+/cygdrive/c/Users/WorkSpace/CLionProjects/PAA-first-assignment/include/solution.h
 
 /cygdrive/c/Users/WorkSpace/CLionProjects/PAA-first-assignment/src/Graph.cpp
 ../include/Graph.h

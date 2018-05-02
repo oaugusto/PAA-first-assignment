@@ -14,10 +14,13 @@
 
 using std::priority_queue;
 using std::greater;
+using std::pair;
 
 struct node {
     v_T id;
     w_T distance;
+
+    node(v_T id, w_T distance) : id(id), distance(distance) {}
 
     bool operator>(const struct node n) const {
         return n.distance > distance;

@@ -11,11 +11,42 @@ Graph construct_reverse_paths_graph(Graph& graph, v_T source) {
     //reverse graph
     Graph rGraph(num_v);
 
-    priority_queue<struct node, vector<struct node>, greater<struct node>> p_queue;
+    //priority queue to represent a heap
+    priority_queue<struct node, vector<struct node>, greater<struct node>> heap;
 
-    for(auto i = graph.begin(); i != graph.end(); i++) {
+    //vector with all distances inicial all inf
+    vector<w_T> dist(num_v, numeric_limits<w_T>::infinity());
+
+    //put the source on the heap and set distance to 0
+    heap.push(node(source, 0));
+    dist[source] = 0;
+
+    while (!heap.empty()) {
+        // extract the min item
+        v_T id = heap.top().id;
+        heap.pop();
+
+        //iterate over all adjacency vertex
+        for (auto it = graph.begin(id); it != graph.end(id); it++) {
+            v_T neighbor = (*it).get_dest();
+            w_T edge_weigth = (*it).get_weigth();
+
+            if (dist[neighbor] > dist[id] + edge_weigth) {
+                dist[neighbor] =  dist[id] + edge_weigth;
+                heap.push(node(neighbor, dist[neighbor]));
+
+                rGraph.remove_edges(neighbor);
+                rGraph.insert(Edge(neighbor, id));
+
+            } else if (dist[neighbor] == dist [id] + edge_weigth) {
+                rGraph.insert(Edge(neighbor, id));
+            }
+        }
+
     }
 
+
+    return rGraph;
 
 }
 

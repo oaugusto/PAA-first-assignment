@@ -12,35 +12,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9a034cc-57df-4c02-befb-562e8ef57f81" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/include/solution.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solution.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compilar.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/executar.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PAA_first_assignment.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PAA_first_assignment.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PAA_first_assignment.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PAA_first_assignment.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PAA_first_assignment.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PAA_first_assignment.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PAA_first_assignment.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PAA_first_assignment.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PAA_first_assignment.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PAA_first_assignment.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PAA_first_assignment.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PAA_first_assignment.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PAA_first_assignment.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PAA_first_assignment.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PAA_first_assignment.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PAA_first_assignment.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PAA_first_assignment.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PAA_first_assignment.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PAA_first_assignment.dir/src/Graph.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PAA_first_assignment.dir/src/ListGraph.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PAA_first_assignment.dir/src/MatrixGraph.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/PAA_first_assignment.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/PAA_first_assignment.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PAA_first_assignment.dir/src/Graph.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PAA_first_assignment.dir/src/Graph.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/PAA_first_assignment.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/PAA_first_assignment.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/Edge.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/Edge.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/Graph.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/Graph.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/ListGraph.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/MatrixGraph.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/Types.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/Types.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/solution.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/solution.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graph.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ListGraph.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MatrixGraph.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solution.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/solution.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,8 +50,26 @@
       <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="85">
+              <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="executar.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/executar.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="compilar.sh" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/compilar.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -73,8 +77,8 @@
       <file leaf-file-name="Graph.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/Graph.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
+            <state relative-caret-position="1547">
+              <caret line="91" selection-start-line="91" selection-end-line="91" />
               <folding>
                 <element signature="e#120#137#0" expanded="true" />
               </folding>
@@ -85,8 +89,8 @@
       <file leaf-file-name="Graph.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Graph.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="1071">
+              <caret line="63" selection-start-line="63" selection-end-line="63" />
             </state>
           </provider>
         </entry>
@@ -94,7 +98,7 @@
       <file leaf-file-name="Edge.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/Edge.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="323">
               <caret line="19" column="58" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
               <folding>
                 <element signature="e#118#135#0" expanded="true" />
@@ -106,8 +110,8 @@
       <file leaf-file-name="solution.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/solution.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="374">
+              <caret line="22" column="61" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
               <folding>
                 <element signature="e#125#143#0" expanded="true" />
               </folding>
@@ -115,11 +119,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="solution.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="solution.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/solution.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+            <state relative-caret-position="918">
+              <caret line="54" selection-start-line="54" selection-end-line="54" />
             </state>
           </provider>
         </entry>
@@ -127,11 +131,17 @@
       <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="19" selection-start-column="19" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Types.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/Types.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -168,16 +178,18 @@
         <option value="$PROJECT_DIR$/include/types.h" />
         <option value="$PROJECT_DIR$/include/graph.h" />
         <option value="$PROJECT_DIR$/include/edge.h" />
-        <option value="$PROJECT_DIR$/include/Types.h" />
         <option value="$PROJECT_DIR$/include/ListGraph.h" />
         <option value="$PROJECT_DIR$/src/ListGraph.cpp" />
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/include/Edge.h" />
-        <option value="$PROJECT_DIR$/include/solution.h" />
-        <option value="$PROJECT_DIR$/src/Graph.cpp" />
         <option value="$PROJECT_DIR$/include/Graph.h" />
+        <option value="$PROJECT_DIR$/include/solution.h" />
         <option value="$PROJECT_DIR$/src/solution.cpp" />
+        <option value="$PROJECT_DIR$/src/Graph.cpp" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/include/Types.h" />
+        <option value="$PROJECT_DIR$/executar.sh" />
+        <option value="$PROJECT_DIR$/compilar.sh" />
       </list>
     </option>
   </component>
@@ -190,10 +202,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="950" />
+    <option name="width" value="979" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -207,16 +219,6 @@
             <path>
               <item name="PAA_first_assignment" type="b2602c69:ProjectViewProjectNode" />
               <item name="PAA-first-assignment" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PAA_first_assignment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PAA-first-assignment" type="462c0819:PsiDirectoryNode" />
-              <item name="include" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PAA_first_assignment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PAA-first-assignment" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -282,6 +284,8 @@
       <workItem from="1524943606464" duration="720000" />
       <workItem from="1525026668966" duration="19380000" />
       <workItem from="1525185764279" duration="10499000" />
+      <workItem from="1525260726233" duration="3256000" />
+      <workItem from="1525265140242" duration="572000" />
     </task>
     <task id="LOCAL-00001" summary="set first classes">
       <created>1523749978652</created>
@@ -294,7 +298,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37413000" />
+    <option name="totallyTimeSpent" value="41241000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -306,11 +310,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.497151" visible="true" weight="0.13945803" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.497151" visible="true" weight="0.13945803" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32905984" />
-      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.32905984" />
       <window_info anchor="bottom" id="CMake" order="7" weight="0.32905984" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50065106" side_tool="true" weight="0.32905984" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32905984" />
@@ -326,6 +330,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
+      <window_info anchor="bottom" id="Messages" order="7" visible="true" weight="0.32905984" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,6 +351,129 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/Graph.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1547">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
+          <folding>
+            <element signature="e#120#137#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Graph.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/Edge.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="58" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
+          <folding>
+            <element signature="e#118#135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/solution.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="61" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
+          <folding>
+            <element signature="e#125#143#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/solution.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/Types.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/Graph.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1547">
+          <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
+          <folding>
+            <element signature="e#120#137#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Graph.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/Edge.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="58" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
+          <folding>
+            <element signature="e#118#135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/solution.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#125#143#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/solution.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -370,16 +498,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/ListGraph.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
-          <folding>
-            <element signature="e#128#143#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/include/ListGraph.h" />
     <entry file="file://$PROJECT_DIR$/include/Edge.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
@@ -394,19 +513,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ListGraph.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ListGraph.cpp" />
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -428,9 +538,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -464,45 +571,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/heap.cpp" />
-    <entry file="file://$PROJECT_DIR$/src/MatrixGraph.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/MatrixGraph.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/Types.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MatrixGraph.cpp" />
+    <entry file="file://$PROJECT_DIR$/include/MatrixGraph.h" />
     <entry file="file://$PROJECT_DIR$/include/heap.h" />
-    <entry file="file://$PROJECT_DIR$/include/ListGraph.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
-          <folding>
-            <element signature="e#128#143#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ListGraph.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="70" column="1" lean-forward="true" selection-start-line="7" selection-end-line="70" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/include/ListGraph.h" />
+    <entry file="file://$PROJECT_DIR$/src/ListGraph.cpp" />
     <entry file="file://C:/cygwin64/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/bits/predefined_ops.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
@@ -512,24 +585,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="85">
+          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/include/Edge.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="323">
           <caret line="19" column="58" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
           <folding>
             <element signature="e#118#135#0" expanded="true" />
@@ -539,35 +602,63 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Graph.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="1071">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/include/Graph.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
+        <state relative-caret-position="1547">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
           <folding>
             <element signature="e#120#137#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/solution.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/include/solution.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="374">
+          <caret line="22" column="61" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
           <folding>
             <element signature="e#125#143#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/solution.cpp">
+    <entry file="file://$PROJECT_DIR$/include/Types.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+        <state relative-caret-position="153">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/executar.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compilar.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
         </state>
       </provider>
     </entry>
