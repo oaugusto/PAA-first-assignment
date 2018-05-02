@@ -23,6 +23,10 @@ limits
 -
 iosfwd
 -
+iostream
+-
+sstream
+-
 Types.h
 /cygdrive/c/Users/WorkSpace/CLionProjects/PAA-first-assignment/include/Types.h
 Edge.h
@@ -46,6 +50,8 @@ functional
 
 /cygdrive/c/Users/WorkSpace/CLionProjects/PAA-first-assignment/main.cpp
 iostream
+-
+fstream
 -
 include/Graph.h
 /cygdrive/c/Users/WorkSpace/CLionProjects/PAA-first-assignment/include/Graph.h

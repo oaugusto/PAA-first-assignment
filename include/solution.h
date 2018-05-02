@@ -32,21 +32,21 @@ struct node {
  * @param graph
  * @return
  */
-Graph construct_reverse_paths(const Graph& graph);
+Graph* construct_reverse_paths_graph(Graph* graph, v_T source);
 
 /**
  *
  * @param graph
  * @return
  */
-vector<v_T> list_all_edges(const Graph& graph);
+vector<e_T>* list_all_edges(Graph* graph);
 
 /**
  *
  * @param graph
  * @return
  */
-vector<v_T> list_all_essencial_edges(const Graph& graph);
+vector<v_T>* list_all_essencial_edges(Graph* graph);
 
 
 

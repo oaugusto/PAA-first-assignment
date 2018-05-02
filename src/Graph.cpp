@@ -57,10 +57,44 @@ void Graph::remove_edges(v_T source) {
     edges[source].clear();
 }
 
-void Graph::load_edges_from_file(std::istream &in) {
-
+void Graph::print_graph() {
+    for (int i = 0; i < num_v; i++) {
+        for (auto it = edges[i].begin(); it != edges[i].end(); it++) {
+            cout << (*it).to_string() << endl;
+        }
+    }
 }
 
-Graph *Graph::creatGraph(std::istream &in, const std::string &type) {
-    return nullptr;
+Graph* Graph::creatGraph(std::istream &in) {
+    v_T nv; //number of vertex
+    v_T ne; //number of edges
+
+    string first_line;
+    //get the first line to parse the graph
+    getline(in, first_line);
+
+    istringstream head(first_line);
+    head >> nv;
+    head >> ne;
+
+    //construct new graph
+    auto graph = new Graph(nv);
+
+    for (v_T i = 1; i <= ne; i++){
+        string line;
+        getline(in, line);
+        istringstream ed(line);
+
+        v_T v1; //first vertex
+        v_T v2; //second vertex
+        w_T w;  //weight
+
+        ed >> v1;
+        ed >> v2;
+        ed >> w;
+
+        graph->insert(Edge(v1 - 1, v2 - 1, w, i));
+    }
+
+    return graph;
 }

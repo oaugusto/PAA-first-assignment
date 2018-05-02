@@ -5,17 +5,17 @@
 #include "../include/solution.h"
 
 
-Graph construct_reverse_paths_graph(Graph& graph, v_T source) {
-    v_T num_v = graph.get_num_v();
+Graph* construct_reverse_paths_graph(Graph* graph, v_T source) {
+    v_T num_v = graph->get_num_v();
 
     //reverse graph
-    Graph rGraph(num_v);
+    auto rGraph = new Graph(num_v);
 
     //priority queue to represent a heap
     priority_queue<struct node, vector<struct node>, greater<struct node>> heap;
 
     //vector with all distances inicial all inf
-    vector<w_T> dist(num_v, numeric_limits<w_T>::infinity());
+    vector<w_T> dist(num_v, numeric_limits<w_T>::max());
 
     //put the source on the heap and set distance to 0
     heap.push(node(source, 0));
@@ -27,7 +27,7 @@ Graph construct_reverse_paths_graph(Graph& graph, v_T source) {
         heap.pop();
 
         //iterate over all adjacency vertex
-        for (auto it = graph.begin(id); it != graph.end(id); it++) {
+        for (auto it = graph->begin(id); it != graph->end(id); it++) {
             v_T neighbor = (*it).get_dest();
             w_T edge_weigth = (*it).get_weigth();
 
@@ -35,11 +35,11 @@ Graph construct_reverse_paths_graph(Graph& graph, v_T source) {
                 dist[neighbor] =  dist[id] + edge_weigth;
                 heap.push(node(neighbor, dist[neighbor]));
 
-                rGraph.remove_edges(neighbor);
-                rGraph.insert(Edge(neighbor, id));
+                rGraph->remove_edges(neighbor);
+                rGraph->insert(Edge(neighbor, id, 0, (*it).get_label()));
 
             } else if (dist[neighbor] == dist [id] + edge_weigth) {
-                rGraph.insert(Edge(neighbor, id));
+                rGraph->insert(Edge(neighbor, id, 0, (*it).get_label()));
             }
         }
 
@@ -47,15 +47,23 @@ Graph construct_reverse_paths_graph(Graph& graph, v_T source) {
 
 
     return rGraph;
-
 }
 
 
-vector<v_T> list_all_edges(const Graph& graph) {
+vector<e_T>* list_all_edges(Graph* graph) {
+    auto end = graph->get_num_v();
+    auto edges = new vector<e_T>;
 
+    for (int i = 0; i < end; i++) {
+        for (auto it = graph->begin(i); it != graph->end(i); it++) {
+            edges->push_back((*it).get_label());
+        }
+    }
+
+    return edges;
 }
 
 
-vector<v_T> list_all_essencial_edges(const Graph& graph) {
+vector<v_T>* list_all_essencial_edges(Graph* graph) {
 
 }

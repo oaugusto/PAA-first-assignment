@@ -10,12 +10,18 @@
 #include <algorithm>
 #include <limits>
 #include <iosfwd>
+#include <iostream>
+#include <sstream>
 #include "Types.h"
 #include "Edge.h"
 
 using std::list;
 using std::vector;
 using std::numeric_limits;
+using std::string;
+using std::istringstream;
+using std::cout;
+using std::endl;
 
 class Graph {
 public:
@@ -92,9 +98,8 @@ public:
 
     /**
      *
-     * @param in
      */
-    void load_edges_from_file(std::istream& in);
+    void print_graph();
 
     /**
      *
@@ -102,8 +107,7 @@ public:
      * @param type
      * @return
      */
-    static Graph* creatGraph(std::istream& in, const std::string& type);
-
+    static Graph* creatGraph(std::istream& in);
 
 private:
     //the number of nodes of the graph

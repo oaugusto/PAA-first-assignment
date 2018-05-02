@@ -47,7 +47,7 @@ public:
     std::string to_string() {
         return "< " + std::to_string(source) + ", " +
                 std::to_string(dest) + " > (" + std::to_string(weight) +
-                " ) : " + std::to_string(label);
+                ") : " + std::to_string(label);
     }
 
 private:
