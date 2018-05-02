@@ -105,71 +105,45 @@ CMakeFiles/PAA_first_assignment.dir/src/Graph.cpp.o.provides: CMakeFiles/PAA_fir
 CMakeFiles/PAA_first_assignment.dir/src/Graph.cpp.o.provides.build: CMakeFiles/PAA_first_assignment.dir/src/Graph.cpp.o
 
 
-CMakeFiles/PAA_first_assignment.dir/src/ListGraph.cpp.o: CMakeFiles/PAA_first_assignment.dir/flags.make
-CMakeFiles/PAA_first_assignment.dir/src/ListGraph.cpp.o: ../src/ListGraph.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/WorkSpace/CLionProjects/PAA-first-assignment/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PAA_first_assignment.dir/src/ListGraph.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PAA_first_assignment.dir/src/ListGraph.cpp.o -c /cygdrive/c/Users/WorkSpace/CLionProjects/PAA-first-assignment/src/ListGraph.cpp
+CMakeFiles/PAA_first_assignment.dir/src/solution.cpp.o: CMakeFiles/PAA_first_assignment.dir/flags.make
+CMakeFiles/PAA_first_assignment.dir/src/solution.cpp.o: ../src/solution.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/WorkSpace/CLionProjects/PAA-first-assignment/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PAA_first_assignment.dir/src/solution.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PAA_first_assignment.dir/src/solution.cpp.o -c /cygdrive/c/Users/WorkSpace/CLionProjects/PAA-first-assignment/src/solution.cpp
 
-CMakeFiles/PAA_first_assignment.dir/src/ListGraph.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PAA_first_assignment.dir/src/ListGraph.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/WorkSpace/CLionProjects/PAA-first-assignment/src/ListGraph.cpp > CMakeFiles/PAA_first_assignment.dir/src/ListGraph.cpp.i
+CMakeFiles/PAA_first_assignment.dir/src/solution.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PAA_first_assignment.dir/src/solution.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/WorkSpace/CLionProjects/PAA-first-assignment/src/solution.cpp > CMakeFiles/PAA_first_assignment.dir/src/solution.cpp.i
 
-CMakeFiles/PAA_first_assignment.dir/src/ListGraph.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PAA_first_assignment.dir/src/ListGraph.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/WorkSpace/CLionProjects/PAA-first-assignment/src/ListGraph.cpp -o CMakeFiles/PAA_first_assignment.dir/src/ListGraph.cpp.s
+CMakeFiles/PAA_first_assignment.dir/src/solution.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PAA_first_assignment.dir/src/solution.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/WorkSpace/CLionProjects/PAA-first-assignment/src/solution.cpp -o CMakeFiles/PAA_first_assignment.dir/src/solution.cpp.s
 
-CMakeFiles/PAA_first_assignment.dir/src/ListGraph.cpp.o.requires:
+CMakeFiles/PAA_first_assignment.dir/src/solution.cpp.o.requires:
 
-.PHONY : CMakeFiles/PAA_first_assignment.dir/src/ListGraph.cpp.o.requires
+.PHONY : CMakeFiles/PAA_first_assignment.dir/src/solution.cpp.o.requires
 
-CMakeFiles/PAA_first_assignment.dir/src/ListGraph.cpp.o.provides: CMakeFiles/PAA_first_assignment.dir/src/ListGraph.cpp.o.requires
-	$(MAKE) -f CMakeFiles/PAA_first_assignment.dir/build.make CMakeFiles/PAA_first_assignment.dir/src/ListGraph.cpp.o.provides.build
-.PHONY : CMakeFiles/PAA_first_assignment.dir/src/ListGraph.cpp.o.provides
+CMakeFiles/PAA_first_assignment.dir/src/solution.cpp.o.provides: CMakeFiles/PAA_first_assignment.dir/src/solution.cpp.o.requires
+	$(MAKE) -f CMakeFiles/PAA_first_assignment.dir/build.make CMakeFiles/PAA_first_assignment.dir/src/solution.cpp.o.provides.build
+.PHONY : CMakeFiles/PAA_first_assignment.dir/src/solution.cpp.o.provides
 
-CMakeFiles/PAA_first_assignment.dir/src/ListGraph.cpp.o.provides.build: CMakeFiles/PAA_first_assignment.dir/src/ListGraph.cpp.o
-
-
-CMakeFiles/PAA_first_assignment.dir/src/MatrixGraph.cpp.o: CMakeFiles/PAA_first_assignment.dir/flags.make
-CMakeFiles/PAA_first_assignment.dir/src/MatrixGraph.cpp.o: ../src/MatrixGraph.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/WorkSpace/CLionProjects/PAA-first-assignment/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PAA_first_assignment.dir/src/MatrixGraph.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PAA_first_assignment.dir/src/MatrixGraph.cpp.o -c /cygdrive/c/Users/WorkSpace/CLionProjects/PAA-first-assignment/src/MatrixGraph.cpp
-
-CMakeFiles/PAA_first_assignment.dir/src/MatrixGraph.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PAA_first_assignment.dir/src/MatrixGraph.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/WorkSpace/CLionProjects/PAA-first-assignment/src/MatrixGraph.cpp > CMakeFiles/PAA_first_assignment.dir/src/MatrixGraph.cpp.i
-
-CMakeFiles/PAA_first_assignment.dir/src/MatrixGraph.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PAA_first_assignment.dir/src/MatrixGraph.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/WorkSpace/CLionProjects/PAA-first-assignment/src/MatrixGraph.cpp -o CMakeFiles/PAA_first_assignment.dir/src/MatrixGraph.cpp.s
-
-CMakeFiles/PAA_first_assignment.dir/src/MatrixGraph.cpp.o.requires:
-
-.PHONY : CMakeFiles/PAA_first_assignment.dir/src/MatrixGraph.cpp.o.requires
-
-CMakeFiles/PAA_first_assignment.dir/src/MatrixGraph.cpp.o.provides: CMakeFiles/PAA_first_assignment.dir/src/MatrixGraph.cpp.o.requires
-	$(MAKE) -f CMakeFiles/PAA_first_assignment.dir/build.make CMakeFiles/PAA_first_assignment.dir/src/MatrixGraph.cpp.o.provides.build
-.PHONY : CMakeFiles/PAA_first_assignment.dir/src/MatrixGraph.cpp.o.provides
-
-CMakeFiles/PAA_first_assignment.dir/src/MatrixGraph.cpp.o.provides.build: CMakeFiles/PAA_first_assignment.dir/src/MatrixGraph.cpp.o
+CMakeFiles/PAA_first_assignment.dir/src/solution.cpp.o.provides.build: CMakeFiles/PAA_first_assignment.dir/src/solution.cpp.o
 
 
 # Object files for target PAA_first_assignment
 PAA_first_assignment_OBJECTS = \
 "CMakeFiles/PAA_first_assignment.dir/main.cpp.o" \
 "CMakeFiles/PAA_first_assignment.dir/src/Graph.cpp.o" \
-"CMakeFiles/PAA_first_assignment.dir/src/ListGraph.cpp.o" \
-"CMakeFiles/PAA_first_assignment.dir/src/MatrixGraph.cpp.o"
+"CMakeFiles/PAA_first_assignment.dir/src/solution.cpp.o"
 
 # External object files for target PAA_first_assignment
 PAA_first_assignment_EXTERNAL_OBJECTS =
 
 PAA_first_assignment.exe: CMakeFiles/PAA_first_assignment.dir/main.cpp.o
 PAA_first_assignment.exe: CMakeFiles/PAA_first_assignment.dir/src/Graph.cpp.o
-PAA_first_assignment.exe: CMakeFiles/PAA_first_assignment.dir/src/ListGraph.cpp.o
-PAA_first_assignment.exe: CMakeFiles/PAA_first_assignment.dir/src/MatrixGraph.cpp.o
+PAA_first_assignment.exe: CMakeFiles/PAA_first_assignment.dir/src/solution.cpp.o
 PAA_first_assignment.exe: CMakeFiles/PAA_first_assignment.dir/build.make
 PAA_first_assignment.exe: CMakeFiles/PAA_first_assignment.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/WorkSpace/CLionProjects/PAA-first-assignment/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable PAA_first_assignment.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/WorkSpace/CLionProjects/PAA-first-assignment/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable PAA_first_assignment.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PAA_first_assignment.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -179,8 +153,7 @@ CMakeFiles/PAA_first_assignment.dir/build: PAA_first_assignment.exe
 
 CMakeFiles/PAA_first_assignment.dir/requires: CMakeFiles/PAA_first_assignment.dir/main.cpp.o.requires
 CMakeFiles/PAA_first_assignment.dir/requires: CMakeFiles/PAA_first_assignment.dir/src/Graph.cpp.o.requires
-CMakeFiles/PAA_first_assignment.dir/requires: CMakeFiles/PAA_first_assignment.dir/src/ListGraph.cpp.o.requires
-CMakeFiles/PAA_first_assignment.dir/requires: CMakeFiles/PAA_first_assignment.dir/src/MatrixGraph.cpp.o.requires
+CMakeFiles/PAA_first_assignment.dir/requires: CMakeFiles/PAA_first_assignment.dir/src/solution.cpp.o.requires
 
 .PHONY : CMakeFiles/PAA_first_assignment.dir/requires
 

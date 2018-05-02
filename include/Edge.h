@@ -14,9 +14,10 @@ public:
     Edge(v_T source, v_T dest, w_T weight, e_T label)
             : source(source), dest(dest), weight(weight), label(label) {}
 
-    Edge() {}
-
     Edge(v_T source, v_T dest) : source(source), dest(dest) {}
+
+    Edge(v_T source, v_T dest, w_T weight)
+            : source(source), dest(dest), weight(weight) {}
 
     Edge(const Edge& edge)
             : source(edge.source), dest(edge.dest),
@@ -38,7 +39,7 @@ public:
 
     e_T get_label() const { return label; }
 
-    bool operator==(const Edge& other) {
+    bool operator==(const Edge& other) const {
         return (other.source == source) && (other.dest == dest);
     }
 

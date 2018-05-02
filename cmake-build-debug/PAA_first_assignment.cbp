@@ -86,13 +86,10 @@
 		<Unit filename="/cygdrive/c/Users/WorkSpace/CLionProjects/PAA-first-assignment/include/Graph.h">
 			<Option target="PAA_first_assignment"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/WorkSpace/CLionProjects/PAA-first-assignment/include/ListGraph.h">
-			<Option target="PAA_first_assignment"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/WorkSpace/CLionProjects/PAA-first-assignment/include/MatrixGraph.h">
-			<Option target="PAA_first_assignment"/>
-		</Unit>
 		<Unit filename="/cygdrive/c/Users/WorkSpace/CLionProjects/PAA-first-assignment/include/Types.h">
+			<Option target="PAA_first_assignment"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/WorkSpace/CLionProjects/PAA-first-assignment/include/solution.h">
 			<Option target="PAA_first_assignment"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/WorkSpace/CLionProjects/PAA-first-assignment/include/timer.h">
@@ -104,10 +101,7 @@
 		<Unit filename="/cygdrive/c/Users/WorkSpace/CLionProjects/PAA-first-assignment/src/Graph.cpp">
 			<Option target="PAA_first_assignment"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/WorkSpace/CLionProjects/PAA-first-assignment/src/ListGraph.cpp">
-			<Option target="PAA_first_assignment"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Users/WorkSpace/CLionProjects/PAA-first-assignment/src/MatrixGraph.cpp">
+		<Unit filename="/cygdrive/c/Users/WorkSpace/CLionProjects/PAA-first-assignment/src/solution.cpp">
 			<Option target="PAA_first_assignment"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/WorkSpace/CLionProjects/PAA-first-assignment/CMakeLists.txt">

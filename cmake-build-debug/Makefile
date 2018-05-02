@@ -177,59 +177,32 @@ src/Graph.cpp.s:
 	$(MAKE) -f CMakeFiles/PAA_first_assignment.dir/build.make CMakeFiles/PAA_first_assignment.dir/src/Graph.cpp.s
 .PHONY : src/Graph.cpp.s
 
-src/ListGraph.o: src/ListGraph.cpp.o
+src/solution.o: src/solution.cpp.o
 
-.PHONY : src/ListGraph.o
-
-# target to build an object file
-src/ListGraph.cpp.o:
-	$(MAKE) -f CMakeFiles/PAA_first_assignment.dir/build.make CMakeFiles/PAA_first_assignment.dir/src/ListGraph.cpp.o
-.PHONY : src/ListGraph.cpp.o
-
-src/ListGraph.i: src/ListGraph.cpp.i
-
-.PHONY : src/ListGraph.i
-
-# target to preprocess a source file
-src/ListGraph.cpp.i:
-	$(MAKE) -f CMakeFiles/PAA_first_assignment.dir/build.make CMakeFiles/PAA_first_assignment.dir/src/ListGraph.cpp.i
-.PHONY : src/ListGraph.cpp.i
-
-src/ListGraph.s: src/ListGraph.cpp.s
-
-.PHONY : src/ListGraph.s
-
-# target to generate assembly for a file
-src/ListGraph.cpp.s:
-	$(MAKE) -f CMakeFiles/PAA_first_assignment.dir/build.make CMakeFiles/PAA_first_assignment.dir/src/ListGraph.cpp.s
-.PHONY : src/ListGraph.cpp.s
-
-src/MatrixGraph.o: src/MatrixGraph.cpp.o
-
-.PHONY : src/MatrixGraph.o
+.PHONY : src/solution.o
 
 # target to build an object file
-src/MatrixGraph.cpp.o:
-	$(MAKE) -f CMakeFiles/PAA_first_assignment.dir/build.make CMakeFiles/PAA_first_assignment.dir/src/MatrixGraph.cpp.o
-.PHONY : src/MatrixGraph.cpp.o
+src/solution.cpp.o:
+	$(MAKE) -f CMakeFiles/PAA_first_assignment.dir/build.make CMakeFiles/PAA_first_assignment.dir/src/solution.cpp.o
+.PHONY : src/solution.cpp.o
 
-src/MatrixGraph.i: src/MatrixGraph.cpp.i
+src/solution.i: src/solution.cpp.i
 
-.PHONY : src/MatrixGraph.i
+.PHONY : src/solution.i
 
 # target to preprocess a source file
-src/MatrixGraph.cpp.i:
-	$(MAKE) -f CMakeFiles/PAA_first_assignment.dir/build.make CMakeFiles/PAA_first_assignment.dir/src/MatrixGraph.cpp.i
-.PHONY : src/MatrixGraph.cpp.i
+src/solution.cpp.i:
+	$(MAKE) -f CMakeFiles/PAA_first_assignment.dir/build.make CMakeFiles/PAA_first_assignment.dir/src/solution.cpp.i
+.PHONY : src/solution.cpp.i
 
-src/MatrixGraph.s: src/MatrixGraph.cpp.s
+src/solution.s: src/solution.cpp.s
 
-.PHONY : src/MatrixGraph.s
+.PHONY : src/solution.s
 
 # target to generate assembly for a file
-src/MatrixGraph.cpp.s:
-	$(MAKE) -f CMakeFiles/PAA_first_assignment.dir/build.make CMakeFiles/PAA_first_assignment.dir/src/MatrixGraph.cpp.s
-.PHONY : src/MatrixGraph.cpp.s
+src/solution.cpp.s:
+	$(MAKE) -f CMakeFiles/PAA_first_assignment.dir/build.make CMakeFiles/PAA_first_assignment.dir/src/solution.cpp.s
+.PHONY : src/solution.cpp.s
 
 # Help Target
 help:
@@ -246,12 +219,9 @@ help:
 	@echo "... src/Graph.o"
 	@echo "... src/Graph.i"
 	@echo "... src/Graph.s"
-	@echo "... src/ListGraph.o"
-	@echo "... src/ListGraph.i"
-	@echo "... src/ListGraph.s"
-	@echo "... src/MatrixGraph.o"
-	@echo "... src/MatrixGraph.i"
-	@echo "... src/MatrixGraph.s"
+	@echo "... src/solution.o"
+	@echo "... src/solution.i"
+	@echo "... src/solution.s"
 .PHONY : help
 
 

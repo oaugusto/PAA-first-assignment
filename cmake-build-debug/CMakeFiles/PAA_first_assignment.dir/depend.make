@@ -3,7 +3,6 @@
 
 CMakeFiles/PAA_first_assignment.dir/main.cpp.o: ../include/Edge.h
 CMakeFiles/PAA_first_assignment.dir/main.cpp.o: ../include/Graph.h
-CMakeFiles/PAA_first_assignment.dir/main.cpp.o: ../include/ListGraph.h
 CMakeFiles/PAA_first_assignment.dir/main.cpp.o: ../include/Types.h
 CMakeFiles/PAA_first_assignment.dir/main.cpp.o: ../main.cpp
 
@@ -12,12 +11,9 @@ CMakeFiles/PAA_first_assignment.dir/src/Graph.cpp.o: ../include/Graph.h
 CMakeFiles/PAA_first_assignment.dir/src/Graph.cpp.o: ../include/Types.h
 CMakeFiles/PAA_first_assignment.dir/src/Graph.cpp.o: ../src/Graph.cpp
 
-CMakeFiles/PAA_first_assignment.dir/src/ListGraph.cpp.o: ../include/Edge.h
-CMakeFiles/PAA_first_assignment.dir/src/ListGraph.cpp.o: ../include/Graph.h
-CMakeFiles/PAA_first_assignment.dir/src/ListGraph.cpp.o: ../include/ListGraph.h
-CMakeFiles/PAA_first_assignment.dir/src/ListGraph.cpp.o: ../include/Types.h
-CMakeFiles/PAA_first_assignment.dir/src/ListGraph.cpp.o: ../src/ListGraph.cpp
-
-CMakeFiles/PAA_first_assignment.dir/src/MatrixGraph.cpp.o: ../include/MatrixGraph.h
-CMakeFiles/PAA_first_assignment.dir/src/MatrixGraph.cpp.o: ../src/MatrixGraph.cpp
+CMakeFiles/PAA_first_assignment.dir/src/solution.cpp.o: ../include/Edge.h
+CMakeFiles/PAA_first_assignment.dir/src/solution.cpp.o: ../include/Graph.h
+CMakeFiles/PAA_first_assignment.dir/src/solution.cpp.o: ../include/Types.h
+CMakeFiles/PAA_first_assignment.dir/src/solution.cpp.o: ../include/solution.h
+CMakeFiles/PAA_first_assignment.dir/src/solution.cpp.o: ../src/solution.cpp
 

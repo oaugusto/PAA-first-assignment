@@ -5,97 +5,115 @@
 #ifndef PAA_FIRST_ASSIGNMENT_GRAPH_H
 #define PAA_FIRST_ASSIGNMENT_GRAPH_H
 
+#include <vector>
+#include <list>
+#include <algorithm>
+#include <limits>
 #include <iosfwd>
 #include "Types.h"
 #include "Edge.h"
 
+using std::list;
+using std::vector;
+using std::numeric_limits;
+
 class Graph {
 public:
-
-    class iterator;
-
     //constructor
-    explicit Graph(v_T n) : num_v(n) {}
+    /**
+     *
+     * @param n
+     */
+    explicit Graph(v_T n) : num_v(n) { edges.resize(n); }
 
     //destructor
-    virtual ~Graph() {}
+    ~Graph() {}
 
-    v_T get_num_v() { return num_v; }
+    /**
+     *
+     * @return
+     */
+    v_T get_num_v() const { return num_v; }
 
-    virtual void insert(const Edge& edge) = 0;
+    /**
+     *
+     * @param edge
+     */
+    void insert(const Edge& edge);
 
-    virtual bool  is_edge(v_T source, v_T destination) const = 0;
+    /**
+     *
+     * @param source
+     * @param destination
+     * @return
+     */
+    bool is_edge(v_T source, v_T destination) const;
 
-    virtual Edge get_edge(v_T source, v_T destination) const = 0;
+    /**
+     *
+     * @param source
+     * @param destination
+     * @return
+     */
+    Edge get_edge(v_T source, v_T destination) const ;
 
-    virtual void remove_edge(v_T source, v_T destination) = 0;
+    /**
+     *
+     * @param source
+     * @param destination
+     */
+    void remove_edge(v_T source, v_T destination);
 
-    virtual  void remove_edge(const Edge& edge) = 0;
+    /**
+     *
+     * @param edge
+     */
+    void remove_edge(const Edge& edge);
 
-    virtual  void remove_edges(v_T source) = 0;
+    /**
+     *
+     * @param source
+     */
+    void remove_edges(v_T source);
 
-    virtual iterator begin(v_T source) const = 0;
+    /**
+     *
+     * @param source
+     * @return
+     */
+    list<Edge>::iterator begin(v_T source);
 
-    virtual iterator end(v_T source) const = 0;
+    /**
+     *
+     * @param source
+     * @return
+     */
+    list<Edge>::iterator end(v_T source);
 
+    /**
+     *
+     * @param in
+     */
     void load_edges_from_file(std::istream& in);
 
+    /**
+     *
+     * @param in
+     * @param type
+     * @return
+     */
     static Graph* creatGraph(std::istream& in, const std::string& type);
 
-    class iter_impl {
-    public:
-        virtual Edge operator*() = 0;
-        virtual iter_impl& operator++() = 0;
-        virtual bool operator==(const iter_impl&) const = 0;
-        virtual iter_impl* clone() = 0;
-        virtual  ~iter_impl() {}
-    };
 
-    class iterator {
-    public:
-
-        //return the current edge
-        Edge operator*() {
-            return ptr_to_impl->operator*();
-        }
-
-        //go to the next edge
-        iterator& operator++() {
-            ++(*ptr_to_impl);
-            return *this;
-        }
-
-        iterator& operator++(int) {
-            iterator tmp(*this);
-            ++(*ptr_to_impl);
-            return tmp;
-        }
-
-        //return true if those two edges are equal
-        bool operator==(const iterator& other) const {
-            return *ptr_to_impl == *other.ptr_to_impl;
-        }
-
-        bool operator!=(const iterator& other) const {
-            return !((*this) == other);
-        }
-
-        ~iterator() {
-            delete ptr_to_impl;
-        }
-
-        iterator(const iterator& other) :
-            ptr_to_impl(other.ptr_to_impl->clone()) {}
-
-        iterator(iter_impl* p_impl) : ptr_to_impl(p_impl) {}
-
-    private:
-        iter_impl* ptr_to_impl;
-    }; //end iterator
-
-protected:
+private:
     //the number of nodes of the graph
     v_T num_v;
+
+    /**
+     *
+     */
+    vector<list<Edge>> edges;
+
 };
 
 

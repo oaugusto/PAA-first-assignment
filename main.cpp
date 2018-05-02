@@ -1,19 +1,26 @@
 #include <iostream>
-#include "include/ListGraph.h"
+#include "include/Graph.h"
+#include <vector>
+#include <list>
+#include <algorithm>
 
 using namespace std;
 
 int main() {
-   // ListGraph test(10);
-    Edge e(1,2,10,1);
-    Edge k(1,2,15,2);
 
-    cout << e.to_string() << endl;
-    cout << k.to_string() << endl;
+    Graph graph(2);
+    Edge test(1,1);
+    Edge test2(1,2);
 
-    if(e == k) {
-        cout << "equal" << endl;
+    graph.insert(test);
+    graph.insert(test2);
+
+    if (graph.is_edge(1,2)) {
+        cout << "true" << endl;
+    } else {
+        cout << "false" << endl;
     }
+
 
     return 0;
 }

@@ -6,8 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/cygdrive/c/Users/WorkSpace/CLionProjects/PAA-first-assignment/main.cpp" "/cygdrive/c/Users/WorkSpace/CLionProjects/PAA-first-assignment/cmake-build-debug/CMakeFiles/PAA_first_assignment.dir/main.cpp.o"
   "/cygdrive/c/Users/WorkSpace/CLionProjects/PAA-first-assignment/src/Graph.cpp" "/cygdrive/c/Users/WorkSpace/CLionProjects/PAA-first-assignment/cmake-build-debug/CMakeFiles/PAA_first_assignment.dir/src/Graph.cpp.o"
-  "/cygdrive/c/Users/WorkSpace/CLionProjects/PAA-first-assignment/src/ListGraph.cpp" "/cygdrive/c/Users/WorkSpace/CLionProjects/PAA-first-assignment/cmake-build-debug/CMakeFiles/PAA_first_assignment.dir/src/ListGraph.cpp.o"
-  "/cygdrive/c/Users/WorkSpace/CLionProjects/PAA-first-assignment/src/MatrixGraph.cpp" "/cygdrive/c/Users/WorkSpace/CLionProjects/PAA-first-assignment/cmake-build-debug/CMakeFiles/PAA_first_assignment.dir/src/MatrixGraph.cpp.o"
+  "/cygdrive/c/Users/WorkSpace/CLionProjects/PAA-first-assignment/src/solution.cpp" "/cygdrive/c/Users/WorkSpace/CLionProjects/PAA-first-assignment/cmake-build-debug/CMakeFiles/PAA_first_assignment.dir/src/solution.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
