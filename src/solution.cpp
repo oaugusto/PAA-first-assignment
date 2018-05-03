@@ -32,6 +32,7 @@ Graph* construct_reverse_paths_graph(Graph* graph) {
             v_T neighbor = (*it).get_dest();
             w_T edge_weigth = (*it).get_weigth();
 
+            //if dist is greater, update dist and update graph removing all edges
             if (dist[neighbor] > dist[id] + edge_weigth) {
                 dist[neighbor] =  dist[id] + edge_weigth;
                 heap.push(node(neighbor, dist[neighbor]));
@@ -39,6 +40,7 @@ Graph* construct_reverse_paths_graph(Graph* graph) {
                 rGraph->remove_edges(neighbor);
                 rGraph->insert(Edge(neighbor, id, 0, (*it).get_label()));
 
+              //else just update graph append a new edge
             } else if (dist[neighbor] == dist [id] + edge_weigth) {
                 rGraph->insert(Edge(neighbor, id, 0, (*it).get_label()));
             }
@@ -51,11 +53,27 @@ Graph* construct_reverse_paths_graph(Graph* graph) {
 
 
 vector<e_T>* list_all_edges(Graph* graph) {
-    auto end = graph->get_num_v();
+    v_T n_v = graph->get_num_v();
     auto edges = new vector<e_T>;
 
-    for (int i = 0; i < end; i++) {
-        for (auto it = graph->begin(i); it != graph->end(i); it++) {
+    queue<v_T> q; //
+    vector<v_T> color(static_cast<unsigned long>(n_v), 0); //all vertex with white color
+
+    color[n_v - 1] = 1; //color grey
+    q.push(n_v - 1);
+
+    while (!q.empty()) {
+        v_T v = q.front();
+        q.pop();
+
+        for (auto it = graph->begin(v); it != graph->end(v); it++) {
+            v_T dest = (*it).get_dest();
+
+            if (color[dest] == 0) {
+                color[dest] = 1; //color grey
+                q.push(dest);
+            }
+
             edges->push_back((*it).get_label());
         }
     }
@@ -64,6 +82,6 @@ vector<e_T>* list_all_edges(Graph* graph) {
 }
 
 
-vector<v_T>* list_all_essencial_edges(Graph* graph) {
+vector<v_T>* list_all_essential_edges(Graph* graph) {
 
 }

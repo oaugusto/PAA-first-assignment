@@ -12,6 +12,7 @@
 #include <algorithm>
 #include <functional>
 
+using std::queue;
 using std::priority_queue;
 using std::greater;
 using std::pair;
@@ -46,7 +47,7 @@ vector<e_T>* list_all_edges(Graph* graph);
  * @param graph
  * @return
  */
-vector<v_T>* list_all_essencial_edges(Graph* graph);
+vector<v_T>* list_all_essential_edges(Graph* graph);
 
 
 

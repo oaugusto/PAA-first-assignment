@@ -50,7 +50,7 @@ int main(int argc, char* argv[]) {
     out << (*all_edges)[all_edges->size() - 1] << endl;
 
     /*find crucial edges*/
-    auto essential_edges = list_all_essencial_edges(stadium_paths);
+    auto essential_edges = list_all_essential_edges(stadium_paths);
     sort(essential_edges->begin(), essential_edges->end());
 
     //write size and essential edges in output file
