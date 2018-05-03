@@ -5,8 +5,6 @@
 
 using namespace std;
 
-void sort(vector<e_T>*);
-
 int main(int argc, char* argv[]) {
 
     // Check the number of parameters
@@ -37,22 +35,38 @@ int main(int argc, char* argv[]) {
     //stadium->print_graph(); //just for debug
 
     //create a reverse graph of paths
-    Graph* stadium_paths = construct_reverse_paths_graph(stadium, 0);
+    Graph* stadium_paths = construct_reverse_paths_graph(stadium);
     //stadium_paths->print_graph(); //just for debug
 
-    //find all edges of reverse graph
+    /*find all edges of reverse graph*/
     auto all_edges = list_all_edges(stadium_paths);
-    sort(all_edges);
+    sort(all_edges->begin(), all_edges->end());
 
-    //find crucial edges
-    //here
+    //write size and edges in output file
+    out << all_edges->size() << endl;
+    for (int i = 0; i < all_edges->size() - 1; i++ ) {
+        out << (*all_edges)[i] << " ";
+    }
+    out << (*all_edges)[all_edges->size() - 1] << endl;
+
+    /*find crucial edges*/
+    auto essential_edges = list_all_essencial_edges(stadium_paths);
+    sort(essential_edges->begin(), essential_edges->end());
+
+    //write size and essential edges in output file
+    out << essential_edges->size() << endl;
+    for (int i = 0; i < essential_edges->size() - 1; i++ ) {
+        out << (*essential_edges)[i] << " ";
+    }
+    out << (*essential_edges)[essential_edges->size() - 1];
+
+    delete(stadium);
+    delete(stadium_paths);
+    delete(all_edges);
+    delete(essential_edges);
 
     in.close();
     out.close();
 
     return 0;
-}
-
-void sort(vector<e_T>*) {
-
 }

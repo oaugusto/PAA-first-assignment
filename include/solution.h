@@ -32,7 +32,7 @@ struct node {
  * @param graph
  * @return
  */
-Graph* construct_reverse_paths_graph(Graph* graph, v_T source);
+Graph* construct_reverse_paths_graph(Graph* graph);
 
 /**
  *

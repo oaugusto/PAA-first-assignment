@@ -17,7 +17,7 @@ Edge Graph::get_edge(v_T source, v_T destination) const {
     if (it != edges[source].end()) {
         return *it;
     } else {
-        Edge(source, destination, numeric_limits<w_T>::infinity());
+        Edge(source, destination, numeric_limits<w_T>::max());
     }
 }
 

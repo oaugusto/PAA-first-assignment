@@ -5,8 +5,9 @@
 #include "../include/solution.h"
 
 
-Graph* construct_reverse_paths_graph(Graph* graph, v_T source) {
+Graph* construct_reverse_paths_graph(Graph* graph) {
     v_T num_v = graph->get_num_v();
+    v_T source = 0; //source is always 0
 
     //reverse graph
     auto rGraph = new Graph(num_v);
@@ -44,7 +45,6 @@ Graph* construct_reverse_paths_graph(Graph* graph, v_T source) {
         }
 
     }
-
 
     return rGraph;
 }
