@@ -1,0 +1,3 @@
+/home/oaugusto/projects/PAA-first-assignment/build/CMakeFiles/rebuild_cache.dir
+/home/oaugusto/projects/PAA-first-assignment/build/CMakeFiles/edit_cache.dir
+/home/oaugusto/projects/PAA-first-assignment/build/CMakeFiles/PAA_first_assignment.dir
