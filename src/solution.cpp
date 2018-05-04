@@ -82,6 +82,65 @@ vector<e_T>* list_all_edges(Graph* graph) {
 }
 
 
-vector<v_T>* list_all_essential_edges(Graph* graph) {
+vector<e_T>* list_all_essential_edges(Graph* graph) {
+    v_T n_v = graph->get_num_v();
+    auto edges = new vector<e_T>;
 
+    auto q_level = new queue<v_T>;
+    vector<v_T> color(static_cast<unsigned long>(n_v), 0); //all vertex with white color
+    vector<v_T> nodes_level(static_cast<unsigned long>(n_v), -1); //level of each node
+
+    color[n_v - 1] = 1; //color grey
+    q_level->push(n_v - 1);
+
+    bool finished = false;
+    v_T level = 0;
+
+    while (!finished) {
+        auto q_backup = new queue<v_T>;
+        vector<Edge> edges_level;
+
+        while (!q_level->empty()) {
+            v_T v = q_level->front();
+            q_level->pop();
+
+            //update level of the node
+            nodes_level[v] = level;
+
+            for (auto it = graph->begin(v); it != graph->end(v); it++) {
+                if (nodes_level[(*it).get_dest()] != level) {
+                    edges_level.push_back((*it));
+                }
+
+                //if the next node was not already visited
+                v_T dest = (*it).get_dest();
+                if (color[dest] == 0) {
+                    color[dest] = 1; //color grey
+                    q_backup->push(dest);
+                }
+            }
+        }
+
+        //no more nodes to explore
+        if (q_backup->empty()) {
+            finished = true;
+        }
+
+        //increment level
+        level = level + 1;
+
+        //if just one edge
+        if (edges_level.size() == 1) {
+            edges->push_back(edges_level.front().get_label());
+        }
+
+        auto aux = q_level;
+        q_level = q_backup;
+        q_backup = aux;
+        delete(q_backup);
+    }
+
+    delete(q_level);
+
+    return edges;
 }

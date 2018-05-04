@@ -42,6 +42,7 @@ Graph* construct_reverse_paths_graph(Graph* graph);
  */
 vector<e_T>* list_all_edges(Graph* graph);
 
+
 /**
  *
  * @param graph
