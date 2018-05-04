@@ -44,10 +44,12 @@ int main(int argc, char* argv[]) {
 
     //write size and edges in output file
     out << all_edges->size() << endl;
-    for (int i = 0; i < all_edges->size() - 1; i++ ) {
-        out << (*all_edges)[i] << " ";
+    if (!all_edges->empty()) {
+        for (int i = 0; i < all_edges->size() - 1; i++) {
+            out << (*all_edges)[i] << " ";
+        }
+        out << (*all_edges)[all_edges->size() - 1] << endl;
     }
-    out << (*all_edges)[all_edges->size() - 1] << endl;
 
     //make the graph undirected in order to use next function
     make_graph_undirected(stadium_paths);
@@ -58,10 +60,12 @@ int main(int argc, char* argv[]) {
 
     //write size and essential edges in output file
     out << essential_edges->size() << endl;
-    for (int i = 0; i < essential_edges->size() - 1; i++ ) {
-        out << (*essential_edges)[i] << " ";
+    if (!essential_edges->empty()) {
+        for (int i = 0; i < essential_edges->size() - 1; i++) {
+            out << (*essential_edges)[i] << " ";
+        }
+        out << (*essential_edges)[essential_edges->size() - 1];
     }
-    out << (*essential_edges)[essential_edges->size() - 1];
 
     delete(stadium);
     delete(stadium_paths);
