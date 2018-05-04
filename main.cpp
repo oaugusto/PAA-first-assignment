@@ -49,6 +49,9 @@ int main(int argc, char* argv[]) {
     }
     out << (*all_edges)[all_edges->size() - 1] << endl;
 
+    //make the graph undirected in order to use next function
+    make_graph_undirected(stadium_paths);
+
     /*find crucial edges*/
     auto essential_edges = list_all_essential_edges(stadium_paths);
     sort(essential_edges->begin(), essential_edges->end());

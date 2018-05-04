@@ -81,66 +81,71 @@ vector<e_T>* list_all_edges(Graph* graph) {
     return edges;
 }
 
-
-vector<e_T>* list_all_essential_edges(Graph* graph) {
+void make_graph_undirected(Graph* graph) {
     v_T n_v = graph->get_num_v();
-    auto edges = new vector<e_T>;
 
-    auto q_level = new queue<v_T>;
-    vector<v_T> color(static_cast<unsigned long>(n_v), 0); //all vertex with white color
-    vector<v_T> nodes_level(static_cast<unsigned long>(n_v), -1); //level of each node
+    for (v_T i = 0; i < n_v; i++) {
+        for (auto it = graph->begin(i); it != graph->end(i); it++) {
+            auto s = (*it).get_source();
+            auto d = (*it).get_dest();
 
-    color[n_v - 1] = 1; //color grey
-    q_level->push(n_v - 1);
-
-    bool finished = false;
-    v_T level = 0;
-
-    while (!finished) {
-        auto q_backup = new queue<v_T>;
-        vector<Edge> edges_level;
-
-        while (!q_level->empty()) {
-            v_T v = q_level->front();
-            q_level->pop();
-
-            //update level of the node
-            nodes_level[v] = level;
-
-            for (auto it = graph->begin(v); it != graph->end(v); it++) {
-                if (nodes_level[(*it).get_dest()] != level) {
-                    edges_level.push_back((*it));
-                }
-
-                //if the next node was not already visited
-                v_T dest = (*it).get_dest();
-                if (color[dest] == 0) {
-                    color[dest] = 1; //color grey
-                    q_backup->push(dest);
-                }
+            //if the edge is not in graph
+            if (!graph->is_edge(d, s)) {
+                graph->insert(Edge(d, s, (*it).get_weigth(), (*it).get_label()));
             }
         }
+    }
+}
 
-        //no more nodes to explore
-        if (q_backup->empty()) {
-            finished = true;
+
+v_T visit_node(Graph* graph, v_T node, bool visited[], v_T pt[], v_T d_time[], v_T* time, vector<e_T>* vet) {
+    d_time[node] = *time; // discovery time
+    auto lower_time = *time; //the lower time so far
+    visited[node] = true; //the node become visited
+
+    *time = *time + 1;
+
+    for (auto it = graph->begin(node); it != graph->end(node); it++) {
+        auto dw = (*it).get_dest();
+        if (!visited[dw]) {
+            pt[dw] = node;
+
+            auto aux = visit_node(graph, dw, visited, pt, d_time, time, vet);
+            lower_time = (lower_time < aux) ? lower_time : aux;
+
+            //not found any node lower time than current so is a bridge
+            if (aux > d_time[node]) {
+                vet->push_back((*it).get_label());
+            }
+        } else {
+            //this means that a found a node that was visited but is not my parent
+            //so a could have found a node lower than current
+            if (dw != pt[node]) {
+                lower_time = (lower_time < d_time[dw]) ? lower_time : d_time[dw];
+            }
         }
-
-        //increment level
-        level = level + 1;
-
-        //if just one edge
-        if (edges_level.size() == 1) {
-            edges->push_back(edges_level.front().get_label());
-        }
-
-        auto aux = q_level;
-        q_level = q_backup;
-        q_backup = aux;
-        delete(q_backup);
     }
 
-    delete(q_level);
+    return lower_time;
+}
 
-    return edges;
+
+vector<e_T>* list_all_essential_edges(Graph* graph) {
+    auto n_v = graph->get_num_v();
+
+    auto vet = new vector<e_T>;
+    auto visited = new bool[n_v];
+    auto parent = new v_T[n_v];
+    auto d_time = new v_T[n_v];
+
+    for (v_T i = 0; i < n_v; i++) {
+        visited[i] = false;
+        parent[i] = -1;
+    }
+
+    v_T time = 0;
+
+    visit_node(graph, n_v - 1, visited, parent, d_time, &time, vet);
+
+    return vet;
 }
