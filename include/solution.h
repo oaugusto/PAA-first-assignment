@@ -38,6 +38,13 @@ Graph* construct_reverse_paths_graph(Graph* graph);
 /**
  *
  * @param graph
+ * @return graph
+ */
+Graph* clean_graph(Graph* graph);
+
+/**
+ *
+ * @param graph
  * @return
  */
 vector<e_T>* list_all_edges(Graph* graph);

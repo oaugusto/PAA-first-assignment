@@ -51,6 +51,40 @@ Graph* construct_reverse_paths_graph(Graph* graph) {
     return rGraph;
 }
 
+Graph* clean_graph(Graph* graph) {
+    v_T n_v = graph->get_num_v();
+    auto gp = new Graph(n_v);
+
+    queue<v_T> q; //
+    vector<v_T> color(static_cast<unsigned long>(n_v), 0); //all vertex with white color
+
+    color[n_v - 1] = 1; //color grey
+    q.push(n_v - 1);
+
+    while (!q.empty()) {
+        v_T v = q.front();
+        q.pop();
+
+        for (auto it = graph->begin(v); it != graph->end(v); it++) {
+            v_T dest = (*it).get_dest();
+
+            if (color[dest] == 0) {
+                color[dest] = 1; //color grey
+                q.push(dest);
+            }
+
+	    gp->insert(Edge((*it).get_source(), (*it).get_dest(), (*it).get_weigth(), (*it).get_label()));
+        }
+    }
+
+    auto aux = graph;
+    graph = gp;
+    gp = aux;
+
+    delete(gp);
+
+    return graph;
+}
 
 vector<e_T>* list_all_edges(Graph* graph) {
     v_T n_v = graph->get_num_v();
@@ -77,6 +111,7 @@ vector<e_T>* list_all_edges(Graph* graph) {
             edges->push_back((*it).get_label());
         }
     }
+
 
     return edges;
 }

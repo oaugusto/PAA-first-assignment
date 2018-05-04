@@ -2,3 +2,6 @@
 
 
 #all here to compile
+cd build/
+cmake ..
+make
